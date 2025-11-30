@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+   background-color: #000000 !important;
+}
+
+.header {
+  background-color: #000000;
+  color: white;
+  padding: 15px 0;
+}
+
+.header-inner {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 40px;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+.nav-list a button {
+  color: white;
+  background-color: red;
+  margin: 0;
+  border-radius: 12px;
+}
+.abc {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+}
+.xyz{
+  color: white;
+  text-align: center;
+}
+.cards{
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  padding: 50px 0;
+}
+.ord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ord img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.order{
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.fran{
+  text-align: center;
+  font-size: 67px;
+  color: white;
+}
+.det{
+  text-align: center;
+  color: rgb(170, 177, 177);
+}
+.branch{
+  color: rgb(245, 108, 108);
+  font-size: 25px;
+}
+.salt{
+  font-size: 35px;
+  color: white;
+}
+.co{
+  color: rgb(211, 212, 212);
+}
+.locat {
+  margin-left: 40px;
+}
+.im{
+  float: right;
+  margin-top: 0;
+  position: relative;
+  top: -250px;
+}
+.bon{
+  border-color:white ;
+  background-color: #000000;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+  width: 150px;
+}
+.branch-2{
+  margin-top: -100px;
+  float: right;
+  clear: both;
+  margin-right: 60px;
+  width: 45%;
+}
+.im-2{
+  margin-top: 150px;
+  
+}
+.Locat{
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.part2{
+  justify-items: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.ww{
+  color: red;
+}
+.DETAIL{
+ color: rgb(161, 159, 159);
+}
+.items{
+   justify-items: center;
+  display: flex;
+  gap: 50px;
+  padding: 50px 170px;
+}
+.card2, .card3{
+  width: 300px;
+  box-sizing: border-box;
+}
+.ww2{
+  color: red;
+}
+.DETAIL2{
+  color: rgb(136, 131, 131);
+}
+.items2{
+      justify-content: center;
+  display: flex;
+  gap: 30px;
+  padding: 50px 0;
+}
+.ww3{
+  color: red;
+}
+.DETAIL3{
+  color: rgb(143, 139, 139);
+}
+.items3{
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  padding: 50px 0;
+}
+.w1{
+  color: red;
+}
+.w2{
+  color: rgb(138, 134, 134);
+}
+.abb{
+  margin-left: 500px;
+}
+.bbt{
+  border-radius: 30px;
+  border-color: white;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+}
+.ex{
+  color: white;
+  font-weight: 150px;
+  font-size: 20px;
+}
+.vill{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 70px;
+}
+.guj{
+  color: red;
+} 
+.haa{
+  color: rgb(172, 165, 165);
+}
+.village{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.ii{
+  display: flex;
+  flex-direction: column;
+}
+.Buton{
+  background-color: rgb(31, 145, 31);
+  color: white;
+  border-radius: 30px;
+  padding: 15px;
+  width: 200px;
+}
+.Buton:hover{
+  background-color: #000000;
+  border-color: white;
+  color: white;
+}
+.soon{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 70px;
+}
+.boxes{
+   display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-left: 80px;
+}
+.boxes2{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+footer {
+  background: #000;
+  color: white;
+  padding: 40px 50px;
+}
+
+/* Whole footer line in columns */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.regard {
+  width: 260px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(200,200,200);
+}
+
+.reg {
+  margin-top: 10px;
+  color: rgb(220,220,220);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: red;
+}
+
+.contact-us p {
+  width: 230px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: rgb(200,200,200);
+}
+
+.follow i {
+  font-size: 22px;
+  margin: 5px;
+  padding: 8px;
+  background: red;
+  border-radius: 8px;
+  color: white;
+  width: 50px;
+  border-radius: 40px;
+}
+.follow i:hover{
+  background-color: black;
+  color: white;
+}
+
